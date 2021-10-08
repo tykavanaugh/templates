@@ -10,8 +10,9 @@
 let prefix = require("./filename");
 
 test('Test some function', () => {
-  expect(prefix.functionName(args)).toBe("expected result")
-})
+  expect(prefix.functionName(args)).toBe("expected result");
+};)
+
 
 // expect(value).toBe(4);
 // expect(value).toEqual(4);
