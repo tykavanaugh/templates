@@ -1,9 +1,9 @@
 
 // npm stuff:
 // module.exports = {function} < put this in the other file
-// npm init to create package.json
+// npm init to create package.json -y flag to skip prompts
 // npm install --save-dev jest
-// can use npm test if package.json is updated
+// can use npm test if package.json add jest to test json file is updated
 // or jest filename if you have jest globally installed
 // 
 
