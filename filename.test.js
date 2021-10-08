@@ -9,7 +9,7 @@
 
 let prefix = require("./filename");
 
-test('Test some function', () => {
+test('A unique name about how you test some function', () => {
   expect(prefix.functionName(args)).toBe("expected result");
 };)
 
