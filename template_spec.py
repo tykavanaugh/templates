@@ -28,4 +28,5 @@ class ChangeMeTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
+#This tells the file to run a unittest method called main() that
+#I assume runs all the tests we made if run directly. 
