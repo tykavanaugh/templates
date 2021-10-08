@@ -1,4 +1,8 @@
-from sum_pairs import sum_pairs
+from filename import function
+#the filename doesn't need the .py
+#if you need to import a not .py that's beyond the scope of this
+#alternative:
+#import filename #But now you have to refer to it as filename.function() instead of function()
 import unittest
 
 
