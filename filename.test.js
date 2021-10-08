@@ -11,7 +11,12 @@ let prefix = require("./filename");
 
 test('A unique name about how you test some function', () => {
   expect(prefix.functionName(args)).toBe("expected result");
-};)
+});
+
+
+test('Another unique name for a test', () => {
+  expect(prefix.functionName(args)).toBe("expected result");
+});
 
 
 // expect(value).toBe(4);
