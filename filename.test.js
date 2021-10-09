@@ -6,6 +6,8 @@
 // can use npm test if package.json add jest to test json file is updated
 // or jest filename if you have jest globally installed
 // 
+// verify this file is something like filename.test.js if you get
+// an error like "no tests found"
 
 let prefix = require("./filename");
 
