@@ -5,7 +5,7 @@ from filename import function
 #import filename #But now you have to refer to it as filename.function() instead of function()
 import unittest
 
-
+#Test methods MUST start with test
 class ChangeMeTests(unittest.TestCase):
     def test_test_something(self):
         """Text"""
