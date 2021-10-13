@@ -21,6 +21,14 @@ test('Another unique name for a test', () => {
 });
 
 
+test('Another way to format a test', () => {
+  let inputVar = "stuff";
+  let result = prefix.functionName(inputVar);
+  let expected = "other stuff"
+  expect(result).toBe(expected);
+});
+
+
 // expect(value).toBe(4);
 // expect(value).toEqual(4);
 
