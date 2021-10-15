@@ -9,7 +9,10 @@ import unittest
 class ChangeMeTests(unittest.TestCase):
     def test_test_something(self):
         """Text"""
-        self.assertEqual(function(args) , desired_return)
+        given = function(args)
+        expected = "change me"
+        self.assertEqual(given , expected)
+
 
 # Common Unit Tests:
 # assertEqual(a, b) > a == b
