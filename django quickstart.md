@@ -64,4 +64,22 @@ REST_FRAMEWORK = {
 CORS_ORIGIN_WHITELIST = ['https://localhost:3000','http://localhost:3000']
 ```
 
+##In project urls.py
 
+```py
+
+from django.contrib import admin
+from django.urls import path
+from rest_framework_jwt.views import obtain_jwt_token
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('token/', obtain_jwt_token)
+]
+
+
+```
+
+python manage.py migrate
+
+You will now be able to recieve JWT tokens.
