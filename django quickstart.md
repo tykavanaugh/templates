@@ -1,6 +1,8 @@
 
 # Django quickstart
 
+Using token authentication and rest framework backend
+
 ## Create env
 
 python -m venv .env
