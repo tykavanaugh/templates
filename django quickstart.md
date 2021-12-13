@@ -33,7 +33,20 @@ MIDDLEWARE = [
 ]
 
 #...
+```
+###Database
+```py
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'tutorial_db',
+    }
+}
+```
 
+
+### At the end add
+```py
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': (
         'rest_framework.permissions.IsAuthenticated',
@@ -47,3 +60,5 @@ REST_FRAMEWORK = {
 
 CORS_ORIGIN_WHITELIST = ['https://localhost:3000','http://localhost:3000']
 ```
+
+
