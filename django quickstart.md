@@ -38,6 +38,9 @@ MIDDLEWARE = [
 #...
 ```
 ### Database
+
+createdb tutorial_db
+
 ```py
 DATABASES = {
     'default': {
