@@ -1,7 +1,7 @@
 
-#Django quickstart
+# Django quickstart
 
-##Create env
+## Create env
 
 python -m venv .env
 
@@ -17,7 +17,7 @@ pip freeze > requirements.txt
 
 python manage.py startapp app_name
 
-##Go to settings .py and add
+## Go to settings .py and add
 
 ```py
 INSTALLED_APPS = [
@@ -35,7 +35,7 @@ MIDDLEWARE = [
 
 #...
 ```
-###Database
+### Database
 ```py
 DATABASES = {
     'default': {
