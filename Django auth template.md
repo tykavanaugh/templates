@@ -1,3 +1,5 @@
+Bash commands:
+
 python -m venv .env
 
 source ./.env/bin/activate
@@ -27,7 +29,7 @@ python manage.py startapp api
     AUTH_USER_MODEL = 'users.CustomUser'
     
 #models.py
-from django.db import models
+    from django.db import models
 
 # Create your models here.
 
