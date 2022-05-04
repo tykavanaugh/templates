@@ -57,6 +57,13 @@ INSTALLED_APPS = [
     ...
     'rest_framework',
 ]
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': '$projectname_db',
+    }
+}
 ```
 
 In main urls.py
@@ -67,4 +74,7 @@ urlpatterns = [
     path('api-auth/', include('rest_framework.urls'))
 ]
 ```
+`python manage.py makemigrations`
+
+`python manage.py migrate`
 
