@@ -44,4 +44,6 @@ env_power/" > .gitignore
 
 `git push -u origin main`
 
+## Create App and Install Django Rest Framework
+
 
