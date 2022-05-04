@@ -50,3 +50,21 @@ env_power/" > .gitignore
 
 `django-admin startproject $projectname .`
 
+In settings.py
+
+```
+INSTALLED_APPS = [
+    ...
+    'rest_framework',
+]
+```
+
+In main urls.py
+
+```
+urlpatterns = [
+    ...
+    path('api-auth/', include('rest_framework.urls'))
+]
+```
+
