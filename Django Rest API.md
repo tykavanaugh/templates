@@ -28,6 +28,9 @@ env.bak/
 venv.bak/ 
 env_power/" > .gitignore
 ```
+`python -m venv .env`
+
+`source .env/bin/activate`
 
 `git init`
 
@@ -40,4 +43,5 @@ env_power/" > .gitignore
 `git remote add origin $repo_origin`
 
 `git push -u origin main`
+
 
