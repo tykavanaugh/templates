@@ -46,4 +46,7 @@ env_power/" > .gitignore
 
 ## Create App and Install Django Rest Framework
 
+`pip install django django-rest-framework`
+
+`django-admin startproject $projectname .`
 
