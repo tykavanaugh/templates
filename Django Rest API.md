@@ -46,7 +46,7 @@ env_power/" > .gitignore
 
 ## Create App and Install Django Rest Framework
 
-`pip install django django-rest-framework`
+`pip install django django-rest-framework psycopg2`
 
 `django-admin startproject $projectname .`
 
