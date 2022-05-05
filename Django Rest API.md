@@ -50,6 +50,8 @@ env_power/" > .gitignore
 
 `django-admin startproject $projectname .`
 
+`python manage.py startapp api`
+
 In settings.py
 
 ```
