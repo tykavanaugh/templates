@@ -80,7 +80,8 @@ In main urls.py
 ```
 urlpatterns = [
     ...
-    path('api-auth/', include('rest_framework.urls'))
+    path('api-auth/', include('rest_framework.urls')),
+    path('api/', include('api.urls')),
 ]
 ```
 `python manage.py makemigrations`
